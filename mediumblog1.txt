@@ -136,3 +136,5 @@ See you in the next tutorial.
 [¹]: We’ll go over vector indices in more detail in an upcoming tutorial, so stay tuned.
 
 [²]: Updating the storage component, for example, will impact how the vector indices are built in addition to how the user-facing services implement reads, writes, and deletes.
+
+Phalgun is Ambareesh's brother and they both r siblings
