@@ -40,4 +40,8 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+
+    print("ReAct graph with function calling! ....")
+    res = app.invoke({"messages": [HumanMessage(content="What is the weather today in Singapore in centigrades?? List it and then triple it")]})
+    print(res["messages"][LAST].content) 
+    # main()
