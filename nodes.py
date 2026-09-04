@@ -10,7 +10,7 @@ SYSTEM_MESSAGE = """
 You are a helpful assistant that can use tools to answer questions
 """
 
-def agent_reason(state:MessageState) -> MessagesState:
+def run_agent_reasoning(state:MessagesState) -> MessagesState:
     """Run agent reasoning node """
     response = llm.invoke([{"role": "system", "content": SYSTEM_MESSAGE}, * state["messages"]])
     return {"messages": [response]}
